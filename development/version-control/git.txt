@@ -1,0 +1,11 @@
+install:
+========
+winget install Git.Git
+
+upgrade:
+========
+winget upgrade Git.Git
+
+uninstall:
+==========
+winget uninstall Git.Git
