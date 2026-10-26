@@ -1,0 +1,11 @@
+install:
+========
+pip install notebook
+
+upgrade:
+========
+pip install --upgrade notebook
+
+uninstall:
+==========
+pip uninstall notebook -y
