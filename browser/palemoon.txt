@@ -1,0 +1,11 @@
+install:
+========
+winget install MoonchildProductions.PaleMoon
+
+upgrade:
+========
+winget upgrade MoonchildProductions.PaleMoon
+
+uninstall:
+==========
+winget uninstall MoonchildProductions.PaleMoon
