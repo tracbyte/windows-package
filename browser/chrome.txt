@@ -1,0 +1,11 @@
+install:
+========
+winget install Google.Chrome
+
+upgrade:
+========
+winget upgrade Google.Chrome
+
+uninstall:
+==========
+winget uninstall Google.Chrome
