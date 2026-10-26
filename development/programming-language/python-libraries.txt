@@ -1,0 +1,76 @@
+Data Science, Machine Learning & AI:
+====================================
+# Modern ML, Deep Learning, High-Performance Dataframes, Vector DBs, Vision & Audio AI
+pip install numpy pandas polars duckdb matplotlib seaborn scipy scikit-learn statsmodels xgboost lightgbm catboost torch torchvision torchaudio transformers datasets langchain openai chromadb faiss-cpu sentence-transformers qdrant-client optuna tensorboard timm accelerate peft diffusers llama-index ultralytics librosa opencv-python
+
+Database, Async & ORM:
+======================
+# Modern Async Drivers, Relational/NoSQL ORMs, Migrations & Caching
+pip install sqlalchemy sqlmodel pymysql psycopg2-binary asyncpg motor redis alembic beanie sqlalchemy-utils pymongo redis-om elasticsearch cassandra-driver miniopy-async
+
+File Handling & Office Documents:
+=================================
+# Image Processing, Modern PDF Manipulation, Document Generation & Spreadsheet Tools
+pip install pillow openpyxl python-docx pypdf pdfplumber xlsxwriter reportlab python-pptx pyreadstat pymupdf xlrd ezdxf
+
+Jupyter & Interactive Dev:
+==========================
+# Jupyter Ecosystem, Visual Debugging Tools & Web Dashboards
+pip install jupyterlab notebook ipywidgets jupyter-bokeh streamlit gradio panel bokeh plotly dash
+
+Python Core, Parsing & Utilities:
+=================================
+# Modern Data Validation, Fast Serialization, CLI Frameworks, Async Utils & Profiling
+pip install pip setuptools wheel python-dotenv click typer rich pydantic pydantic-settings python-multipart orjson loguru structlog tenacity tqdm icecream pyyaml tomli msgpack ultrajson memory-profiler line-profiler
+
+Testing, QA & Code Quality:
+===========================
+# Modern Test Runners, Parallel Execution, Property Testing, Type Checking, Linters & Formatters
+pip install pytest pytest-cov pytest-asyncio pytest-xdist hypothesis ruff black flake8 pylint mypy bandit safety pytest-benchmark locust
+
+Web Development, Async & APIs:
+==============================
+# Modern Async Web Frameworks, Microframeworks & ASGI Servers
+pip install flask fastapi uvicorn[standard] django starlette gunicorn hypercorn tornado sanic websockets aiofiles python-socketio
+
+Web Scraping, Automation & Browser Engine:
+==========================================
+# Async HTTP Clients, Modern Scraping Tools & Automated Browsers
+pip install requests httpx httpx-sse aiohttp beautifulsoup4 lxml selenium playwright mechanicalsoup scrapy webdriver-manager curl-cffi
+playwright install
+
+Media & Downloads:
+==================
+# Video/Audio Extraction, Editing & Processing Tools
+pip install yt-dlp imageio ffmpeg-python moviepy soundfile pydub av wand mutagen
+
+Task Queues & Background Workers:
+=================================
+# Distributed Task Engines & Schedulers
+pip install celery redis rq apscheduler dramatiq huey rocketry temporalio
+
+Security, Auth & Cryptography:
+==============================
+# Token Auth, Password Hashing & Encryption
+pip install cryptography pyjwt passlib[bcrypt] python-jose argon2-cffi paramiko authlib pyotp
+
+
+Ultimate Oneliner Install (Windows Command Prompt / CMD):
+==========================================================
+python -m pip install --upgrade pip setuptools wheel && pip install numpy pandas polars duckdb matplotlib seaborn scipy scikit-learn statsmodels xgboost lightgbm catboost torch torchvision torchaudio transformers datasets langchain openai chromadb faiss-cpu sentence-transformers qdrant-client optuna tensorboard timm accelerate peft diffusers llama-index ultralytics librosa opencv-python sqlalchemy sqlmodel pymysql psycopg2-binary asyncpg motor redis alembic beanie sqlalchemy-utils pymongo redis-om elasticsearch cassandra-driver miniopy-async pillow openpyxl python-docx pypdf pdfplumber xlsxwriter reportlab python-pptx pyreadstat pymupdf xlrd ezdxf jupyterlab notebook ipywidgets jupyter-bokeh streamlit gradio panel bokeh plotly dash python-dotenv click typer rich pydantic pydantic-settings python-multipart orjson loguru structlog tenacity tqdm icecream pyyaml tomli msgpack ultrajson memory-profiler line-profiler pytest pytest-cov pytest-asyncio pytest-xdist hypothesis ruff black flake8 pylint mypy bandit safety pytest-benchmark locust flask fastapi uvicorn[standard] django starlette gunicorn hypercorn tornado sanic websockets aiofiles python-socketio requests httpx httpx-sse aiohttp beautifulsoup4 lxml selenium playwright mechanicalsoup scrapy webdriver-manager curl-cffi yt-dlp imageio ffmpeg-python moviepy soundfile pydub av wand mutagen celery redis rq apscheduler dramatiq huey rocketry temporalio cryptography pyjwt passlib[bcrypt] python-jose argon2-cffi paramiko authlib pyotp && playwright install
+
+
+Global Uninstall Methods (Windows Command Prompt / CMD):
+========================================================
+
+# Method 1: Native CMD Loop (Fastest, Oneliner & Zero extra tools)
+for /f "tokens=1 delims==" %i in ('pip freeze') do pip uninstall -y %i
+
+# Method 2: Requirements File Dump (Safest for reviewing installed modules before removal)
+pip freeze > uninstall_list.txt && pip uninstall -y -r uninstall_list.txt && del uninstall_list.txt
+
+# Method 3: Dedicated Utility Package (Handles uninstallation along with orphaned dependencies)
+pip install pip-autoremove && pip-autoremove -y
+
+# Method 4: Clean Site-Packages Purge (Nuclear option via Python code)
+python -c "import site, os, shutil; [shutil.rmtree(os.path.join(p, f)) for p in site.getsitepackages() for f in os.listdir(p) if f.endswith('.dist-info') or f.endswith('.egg-info') or (os.path.isdir(os.path.join(p, f)) and f not in ['pip', 'setuptools', 'wheel', '_distutils_hack'])]"
