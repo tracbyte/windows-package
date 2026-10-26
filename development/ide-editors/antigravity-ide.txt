@@ -1,0 +1,11 @@
+install:
+========
+winget install Antigravity.IDE
+
+upgrade:
+========
+winget upgrade Antigravity.IDE
+
+uninstall:
+==========
+winget uninstall Antigravity.IDE
