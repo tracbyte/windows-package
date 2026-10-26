@@ -1,0 +1,11 @@
+install:
+========
+winget install SQLite.SQLite
+
+upgrade:
+========
+winget upgrade SQLite.SQLite
+
+uninstall:
+==========
+winget uninstall SQLite.SQLite
