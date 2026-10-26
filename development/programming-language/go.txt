@@ -1,0 +1,11 @@
+install:
+========
+winget install GoLang.Go
+
+upgrade:
+========
+winget upgrade GoLang.Go
+
+uninstall:
+==========
+winget uninstall GoLang.Go
