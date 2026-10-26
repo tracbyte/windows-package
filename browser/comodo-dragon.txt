@@ -1,0 +1,11 @@
+install:
+========
+winget install Comodo.Dragon
+
+upgrade:
+========
+winget upgrade Comodo.Dragon
+
+uninstall:
+==========
+winget uninstall Comodo.Dragon
