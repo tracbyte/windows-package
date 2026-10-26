@@ -1,0 +1,11 @@
+install:
+========
+winget install TorProject.TorBrowser
+
+upgrade:
+========
+winget upgrade TorProject.TorBrowser
+
+uninstall:
+==========
+winget uninstall TorProject.TorBrowser
