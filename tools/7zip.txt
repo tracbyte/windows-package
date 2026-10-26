@@ -1,0 +1,11 @@
+intsall:
+========
+winget install 7zip.7zip
+
+upgrade:
+========
+winget upgrade 7zip.7zip
+
+uninstall:
+==========
+winget uninstall 7zip.7zip
