@@ -1,0 +1,11 @@
+install:
+========
+winget install JetBrains.PyCharm.Community
+
+upgrade:
+========
+winget upgrade JetBrains.PyCharm.Community
+
+uninstall:
+==========
+winget uninstall JetBrains.PyCharm.Community
