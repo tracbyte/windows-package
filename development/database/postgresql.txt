@@ -1,0 +1,11 @@
+install:
+========
+winget install PostgreSQL.PostgreSQL
+
+upgrade:
+========
+winget upgrade PostgreSQL.PostgreSQL
+
+uninstall:
+==========
+winget uninstall PostgreSQL.PostgreSQL
