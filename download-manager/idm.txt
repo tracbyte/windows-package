@@ -1,0 +1,11 @@
+install:
+========
+winget install TonicSolutions.InternetDownloadManager
+
+upgrade:
+========
+winget upgrade TonicSolutions.InternetDownloadManager
+
+uninstall:
+==========
+winget uninstall TonicSolutions.InternetDownloadManager
