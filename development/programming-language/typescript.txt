@@ -1,0 +1,11 @@
+install:
+========
+npm install -g typescript
+
+upgrade:
+========
+npm update -g typescript
+
+uninstall:
+==========
+npm uninstall -g typescript
