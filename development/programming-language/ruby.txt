@@ -1,0 +1,11 @@
+install:
+========
+winget install RubyInstallerTeam.RubyWithDevKit
+
+upgrade:
+========
+winget upgrade RubyInstallerTeam.RubyWithDevKit
+
+uninstall:
+==========
+winget uninstall RubyInstallerTeam.RubyWithDevKit
