@@ -1,0 +1,11 @@
+install:
+========
+winget install PHP.PHP
+
+upgrade:
+========
+winget upgrade PHP.PHP
+
+uninstall:
+==========
+winget uninstall PHP.PHP
