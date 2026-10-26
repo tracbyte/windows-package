@@ -1,0 +1,11 @@
+install:
+========
+winget install Mozilla.Firefox
+
+upgrade:
+========
+winget upgrade Mozilla.Firefox
+
+uninstall:
+==========
+winget uninstall Mozilla.Firefox
