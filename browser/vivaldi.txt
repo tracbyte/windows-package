@@ -1,0 +1,11 @@
+install:
+========
+winget install Vivaldi.Vivaldi
+
+upgrade:
+========
+winget upgrade Vivaldi.Vivaldi
+
+uninstall:
+==========
+winget uninstall Vivaldi.Vivaldi
