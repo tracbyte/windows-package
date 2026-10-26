@@ -1,0 +1,11 @@
+install:
+========
+winget install Microsoft.DotNet.SDK.8
+
+upgrade:
+========
+winget upgrade Microsoft.DotNet.SDK.8
+
+uninstall:
+==========
+winget uninstall Microsoft.DotNet.SDK.8
