@@ -1,0 +1,11 @@
+install:
+========
+winget install VideoLAN.VLC
+
+upgrade:
+========
+winget upgrade VideoLAN.VLC
+
+uninstall:
+==========
+winget uninstall VideoLAN.VLC
