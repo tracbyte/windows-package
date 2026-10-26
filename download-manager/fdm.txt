@@ -1,0 +1,11 @@
+install:
+========
+winget install SoftDeluxe.FreeDownloadManager
+
+upgrade:
+========
+winget upgrade SoftDeluxe.FreeDownloadManager
+
+uninstall:
+==========
+winget uninstall SoftDeluxe.FreeDownloadManager
