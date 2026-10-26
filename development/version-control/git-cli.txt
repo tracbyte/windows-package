@@ -1,0 +1,11 @@
+install:
+========
+winget install GitHub.cli
+
+upgrade:
+========
+winget upgrade GitHub.cli
+
+uninstall:
+==========
+winget uninstall GitHub.cli
