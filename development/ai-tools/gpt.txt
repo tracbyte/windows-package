@@ -1,0 +1,11 @@
+install:
+========
+winget install OpenAI.ChatGPT
+
+upgrade:
+========
+winget upgrade OpenAI.ChatGPT
+
+uninstall:
+==========
+winget uninstall OpenAI.ChatGPT
