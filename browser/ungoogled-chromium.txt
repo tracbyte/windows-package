@@ -1,0 +1,11 @@
+install:
+========
+winget install Eloston.UngoogledChromium
+
+upgrade:
+========
+winget upgrade Eloston.UngoogledChromium
+
+uninstall:
+==========
+winget uninstall Eloston.UngoogledChromium
