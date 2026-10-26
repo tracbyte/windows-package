@@ -1,0 +1,11 @@
+install:
+========
+winget install Cursor.Cursor
+
+upgrade:
+========
+winget upgrade Cursor.Cursor
+
+uninstall:
+==========
+winget uninstall Cursor.Cursor
