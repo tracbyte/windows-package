@@ -1,0 +1,11 @@
+install:
+========
+winget install Microsoft.VisualStudio.2022.Community
+
+upgrade:
+========
+winget upgrade Microsoft.VisualStudio.2022.Community
+
+uninstall:
+==========
+winget uninstall Microsoft.VisualStudio.2022.Community
