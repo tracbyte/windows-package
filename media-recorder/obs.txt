@@ -1,0 +1,11 @@
+install:
+========
+winget install OBSProject.OBSStudio
+
+upgrade:
+========
+winget upgrade OBSProject.OBSStudio
+
+uninstall:
+==========
+winget uninstall OBSProject.OBSStudio
