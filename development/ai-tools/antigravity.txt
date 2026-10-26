@@ -1,0 +1,11 @@
+install:
+========
+winget install Antigravity.Antigravity
+
+upgrade:
+========
+winget upgrade Antigravity.Antigravity
+
+uninstall:
+==========
+winget uninstall Antigravity.Antigravity
