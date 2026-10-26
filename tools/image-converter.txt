@@ -1,0 +1,11 @@
+intsall:
+========
+winget install ImageMagick.ImageMagick
+
+upgrade:
+========
+winget upgrade ImageMagick.ImageMagick
+
+uninstall:
+==========
+winget uninstall ImageMagick.ImageMagick
