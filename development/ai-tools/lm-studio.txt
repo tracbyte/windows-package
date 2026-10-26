@@ -1,0 +1,11 @@
+install:
+========
+winget install LMStudio.LMStudio
+
+upgrade:
+========
+winget upgrade LMStudio.LMStudio
+
+uninstall:
+==========
+winget uninstall LMStudio.LMStudio
