@@ -1,0 +1,11 @@
+install:
+========
+winget install Opera.Opera
+
+upgrade:
+========
+winget upgrade Opera.Opera
+
+uninstall:
+==========
+winget uninstall Opera.Opera
