@@ -1,0 +1,11 @@
+install:
+========
+winget install OpenJS.NodeJS
+
+upgrade:
+========
+winget upgrade OpenJS.NodeJS
+
+uninstall:
+==========
+winget uninstall OpenJS.NodeJS
