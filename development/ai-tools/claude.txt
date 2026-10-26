@@ -1,0 +1,11 @@
+install:
+========
+winget install Anthropic.Claude
+
+upgrade:
+========
+winget upgrade Anthropic.Claude
+
+uninstall:
+==========
+winget uninstall Anthropic.Claude
