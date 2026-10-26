@@ -1,0 +1,11 @@
+install:
+========
+winget install Recordly.Recordly
+
+upgrade:
+========
+winget upgrade Recordly.Recordly
+
+uninstall:
+==========
+winget uninstall Recordly.Recordly
