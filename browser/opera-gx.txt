@@ -1,0 +1,11 @@
+install:
+========
+winget install Opera.OperaGX
+
+upgrade:
+========
+winget upgrade Opera.OperaGX
+
+uninstall:
+==========
+winget uninstall Opera.OperaGX
