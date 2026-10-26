@@ -1,0 +1,11 @@
+install:
+========
+winget install Jupyter.JupyterLab
+
+upgrade:
+========
+winget upgrade Jupyter.JupyterLab
+
+uninstall:
+==========
+winget uninstall Jupyter.JupyterLab
