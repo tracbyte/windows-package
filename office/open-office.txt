@@ -1,0 +1,11 @@
+install:
+========
+winget install Apache.OpenOffice
+
+upgrade:
+========
+winget upgrade Apache.OpenOffice
+
+uninstall:
+==========
+winget uninstall Apache.OpenOffice
