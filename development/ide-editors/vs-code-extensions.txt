@@ -1,0 +1,65 @@
+Python, R, Julia & Data Science:
+================================
+# Support for Data Analysis, Deep Learning, Statistical Computing, and Interactive Notebooks
+code --install-extension ms-python.python ms-python.vscode-pylance ms-toolsai.jupyter REditorSupport.r julialang.language-julia
+
+Web Dev (JS, TS, HTML, CSS & Frontend):
+=======================================
+# Linters, Formatters, and Structural Frameworks for Modern Modern Web Engineering
+code --install-extension dbaeumer.vscode-eslint esbenp.prettier-vscode svelte.svelte-vscode vue.volar angular.ng-template bradlc.vscode-tailwindcss
+
+Systems & High-Performance Languages:
+======================================
+# Low-Level Language Servers, Debugging Interfaces, and Safe Compiler Tools
+code --install-extension ms-vscode.cpptools ms-vscode.cpptools-extension-pack rust-lang.rust-analyzer ziglang.vscode-zig gingerBill.odin-lang
+
+Mainstream Backend & Compiled:
+==============================
+# Type-Safe Application Frameworks, Standard Toolchains, and SDK Ecosystems
+code --install-extension golang.go redhat.java vscjava.vscode-java-pack ms-dotnettools.csdevkit fwcd.kotlin sswg.swift-lang
+
+Scripting, Systems Ops & Web Backend:
+=====================================
+# Dynamic Automation Frameworks, Server Execution Contexts, and Profiling Packs
+code --install-extension xdebug.php-debug bmewburn.vscode-intelephense shopify.ruby-lsp brianfransioli.perlnavigator crystal-lang-tools.crystal-lang
+
+Mobile & Cross-Platform:
+========================
+# Interface Design Tools, Device Compilation Systems, and Testing Frameworks
+code --install-extension Dart-Code.dart Dart-Code.flutter msjsdiag.vscode-react-native
+
+Functional & Logic Programming:
+===============================
+# Declarative Paradigms, Formal Proof Architecture, and Safe Concurrent Syntaxes
+code --install-extension haskell.haskell ocaml.ocaml-platform erlang-ls.erlang-ls elixir-lsp.elixir-ls ArthurWang.vsc-prolog
+
+Hardware Description & Low-Level:
+==================================
+# Microcontroller Interfaces, Assembly Diagnostics, and Silicon Design Architectures
+code --install-extension mcu-debug.rtos-views masm-tasm.masm-tasm mtxr.sqltools leafvmaple.verilog
+
+Shell, Cloud & Infrastructure Configuration:
+============================================
+# Container Orchestration, System Linting, and Infrastructure Automation
+code --install-extension ms-azuretools.vscode-docker ms-kubernetes-tools.vscode-kubernetes-tools hashicorp.terraform redhat.ansible jnoortheen.nix-ide mikael.bash-checker timonwong.shellcheck
+
+Data, Formats & Configs:
+========================
+# Structural Schemas, Document Writing Tools, and Large File Viewers
+code --install-extension ms-mssql.mssql redhat.vscode-yaml tamasfe.even-better-toml mechatroner.rainbow-csv yzhang.markdown-all-in-one
+
+
+Ultimate Oneliner Install (Windows PowerShell):
+===============================================
+# Clean temporary data caches, configure base environment layouts, and install all development extensions in a single instruction pass
+Remove-Item -Recurle -Force "$env:APPDATA\Code\CachedData\*"; code --install-extension ms-python.python ms-python.vscode-pylance ms-toolsai.jupyter REditorSupport.r julialang.language-julia dbaeumer.vscode-eslint esbenp.prettier-vscode svelte.svelte-vscode vue.volar angular.ng-template bradlc.vscode-tailwindcss ms-vscode.cpptools ms-vscode.cpptools-extension-pack rust-lang.rust-analyzer ziglang.vscode-zig gingerBill.odin-lang golang.go redhat.java vscjava.vscode-java-pack ms-dotnettools.csdevkit fwcd.kotlin sswg.swift-lang xdebug.php-debug bmewburn.vscode-intelephense shopify.ruby-lsp brianfransioli.perlnavigator crystal-lang-tools.crystal-lang Dart-Code.dart Dart-Code.flutter msjsdiag.vscode-react-native haskell.haskell ocaml.ocaml-platform erlang-ls.erlang-ls elixir-lsp.elixir-ls ArthurWang.vsc-prolog mcu-debug.rtos-views masm-tasm.masm-tasm mtxr.sqltools leafvmaple.verilog ms-azuretools.vscode-docker ms-kubernetes-tools.vscode-kubernetes-tools hashicorp.terraform redhat.ansible jnoortheen.nix-ide mikael.bash-checker timonwong.shellcheck ms-mssql.mssql redhat.vscode-yaml tamasfe.even-better-toml mechatroner.rainbow-csv yzhang.markdown-all-in-one --force
+
+
+Global Uninstall (Windows PowerShell):
+======================================
+# Option 1: Clean out specific main language servers using the official removal engine
+code --uninstall-extension ms-python.python ms-vscode.cpptools rust-lang.rust-analyzer golang.go redhat.java ms-dotnettools.csdevkit vscjava.vscode-java-pack
+
+# Option 2: Complete target directory wipe to clear every single extension instantly from the disk
+Remove-Item -Recurse -Force "$env:USERPROFILE\.vscode\extensions\*"
+
