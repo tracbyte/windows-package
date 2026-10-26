@@ -1,0 +1,11 @@
+install:
+========
+winget install Microsoft.VisualStudioCode
+
+upgrade:
+========
+winget upgrade Microsoft.VisualStudioCode
+
+uninstall:
+==========
+winget uninstall Microsoft.VisualStudioCode
