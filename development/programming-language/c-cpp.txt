@@ -1,0 +1,25 @@
+install:
+========
+winget install WinLibs.GNU.Compiler.Collection
+
+upgrade:
+========
+winget upgrade WinLibs.GNU.Compiler.Collection
+
+uninstall:
+==========
+winget uninstall WinLibs.GNU.Compiler.Collection
+
+# legacy:
+========
+install:
+========
+winget install GNU.MinGW.w64
+
+upgrade:
+========
+winget upgrade GNU.MinGW.w64
+
+uninstall:
+==========
+winget uninstall GNU.MinGW.w64
