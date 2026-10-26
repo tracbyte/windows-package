@@ -1,0 +1,11 @@
+install:
+========
+winget upgrade --all
+
+upgrade:
+========
+winget upgrade --all
+
+uninstall:
+==========
+echo Cannot uninstall all packages globally
