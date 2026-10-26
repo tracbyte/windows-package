@@ -1,0 +1,11 @@
+install:
+========
+winget install Brave.Brave
+
+upgrade:
+========
+winget upgrade Brave.Brave
+
+uninstall:
+==========
+winget uninstall Brave.Brave
