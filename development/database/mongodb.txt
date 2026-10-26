@@ -1,0 +1,11 @@
+install:
+========
+winget install MongoDB.Server
+
+upgrade:
+========
+winget upgrade MongoDB.Server
+
+uninstall:
+==========
+winget uninstall MongoDB.Server
