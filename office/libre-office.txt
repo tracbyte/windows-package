@@ -1,0 +1,11 @@
+install:
+========
+winget install TheDocumentFoundation.LibreOffice
+
+upgrade:
+========
+winget upgrade TheDocumentFoundation.LibreOffice
+
+uninstall:
+==========
+winget uninstall TheDocumentFoundation.LibreOffice
