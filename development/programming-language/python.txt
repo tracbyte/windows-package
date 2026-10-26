@@ -1,0 +1,11 @@
+install:
+========
+winget install Python.Python.3.14
+
+upgrade:
+========
+winget upgrade Python.Python.3.14
+
+uninstall:
+==========
+winget uninstall Python.Python.3.14
