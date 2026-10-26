@@ -1,0 +1,11 @@
+install:
+========
+winget install Oracle.MySQL
+
+upgrade:
+========
+winget upgrade Oracle.MySQL
+
+uninstall:
+==========
+winget uninstall Oracle.MySQL
