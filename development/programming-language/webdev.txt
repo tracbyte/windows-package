@@ -1,0 +1,11 @@
+install:
+========
+npm install -g npm yarn pnpm create-react-app create-next-app vite typescript tailwindcss postcss autoprefixer @tanstack/react-query axios zustand @reduxjs/toolkit && pip install flask fastapi uvicorn[standard] django starlette gunicorn hypercorn
+
+upgrade:
+========
+npm update -g npm yarn pnpm create-react-app create-next-app vite typescript tailwindcss postcss autoprefixer && pip install --upgrade flask fastapi uvicorn[standard] django starlette gunicorn hypercorn
+
+uninstall:
+==========
+npm uninstall -g create-react-app create-next-app vite typescript tailwindcss postcss autoprefixer @tanstack/react-query axios zustand @reduxjs/toolkit && pip uninstall -y flask fastapi uvicorn[standard] django starlette gunicorn hypercorn
