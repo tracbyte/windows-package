@@ -1,0 +1,11 @@
+install:
+========
+winget install Microsoft.Edge
+
+upgrade:
+========
+winget upgrade Microsoft.Edge
+
+uninstall:
+==========
+winget uninstall Microsoft.Edge
