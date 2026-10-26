@@ -1,0 +1,11 @@
+install:
+========
+winget install JetBrains.CLion
+
+upgrade:
+========
+winget upgrade JetBrains.CLion
+
+uninstall:
+==========
+winget uninstall JetBrains.CLion
