@@ -1,0 +1,11 @@
+install:
+========
+winget install Rustlang.Rustup
+
+upgrade:
+========
+winget upgrade Rustlang.Rustup
+
+uninstall:
+==========
+winget uninstall Rustlang.Rustup
