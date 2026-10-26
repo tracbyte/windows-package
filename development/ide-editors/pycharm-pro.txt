@@ -1,0 +1,11 @@
+install:
+========
+winget install JetBrains.PyCharm.Professional
+
+upgrade:
+========
+winget upgrade JetBrains.PyCharm.Professional
+
+uninstall:
+==========
+winget uninstall JetBrains.PyCharm.Professional
