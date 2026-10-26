@@ -1,0 +1,11 @@
+install:
+========
+winget install Ollama.Ollama
+
+upgrade:
+========
+winget upgrade Ollama.Ollama
+
+uninstall:
+==========
+winget uninstall Ollama.Ollama
