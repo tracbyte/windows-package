@@ -1,0 +1,11 @@
+install:
+========
+winget install Memurai.MemuraiDeveloper
+
+upgrade:
+========
+winget upgrade Memurai.MemuraiDeveloper
+
+uninstall:
+==========
+winget uninstall Memurai.MemuraiDeveloper
