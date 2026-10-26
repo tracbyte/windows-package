@@ -1,0 +1,11 @@
+install:
+========
+winget install Oracle.JDK.21
+
+upgrade:
+========
+winget upgrade Oracle.JDK.21
+
+uninstall:
+==========
+winget uninstall Oracle.JDK.21
